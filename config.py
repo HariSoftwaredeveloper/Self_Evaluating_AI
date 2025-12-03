@@ -1,0 +1,9 @@
+import os
+
+AZURE_OPENAI_API_KEY = "API_KEY_HERE"
+AZURE_OPENAI_ENDPOINT = "https://francecentral.api.cognitive.microsoft.com/"
+AZURE_OPENAI_API_VERSION = "2024-12-01-preview"
+AZURE_OPENAI_DEPLOYMENT_NAME = "gpt-4o"
+
+os.environ["AZURE_OPENAI_API_KEY"] = AZURE_OPENAI_API_KEY
+os.environ["AZURE_OPENAI_ENDPOINT"] = AZURE_OPENAI_ENDPOINT
